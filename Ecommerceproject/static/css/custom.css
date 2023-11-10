@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@700&family=Lora&family=Montserrat:wght@100;500&family=Noto+Serif:wght@300&family=PT+Serif&family=Roboto:ital,wght@0,400;0,700;1,300&display=swap');
+.body-sty{
+    background-color: #0f0f0f;
+    font-size: 12x;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Lora', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Serif', serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
+    color: #f8f8f8;
+    
+}
+
+.nav-item {
+    
+    letter-spacing: .2em;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Lora', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Serif', serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
+}
+.drop-down{
+    letter-spacing: .2em;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Lora', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Serif', serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
+}
+.d-flex{
+   
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Lora', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Serif', serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
+    text-align: end;
+}
+.footer-base{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Lora', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Serif', serif;
+    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
+    
+}
+/* categorypege */
+.my_row_class{
+    padding-top: 15px;
+}
+.my_row_class.max-auto{
+    color: #000;
+    font-size: 14px;   
+}
+.my_image{
+    width:100%;
+    height: auto;
+}
+.my_title{
+    font-size:16px ;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+
+}
+.my_image_padding{
+    padding: 5px;
+}
+.my_bottom_margin{
+    margin-bottom: 12px;
+}
+.card-body h5{
+    font-size: 10x;
+    text-transform:uppercase;
+    justify-items: auto;
+   
+}
+
+.card{
+        min-height: 200px;
+}
+
+.my_image{
+    min-height: 200px;
+}
+/* product page */
+
+.my_prod_row_class{
+    padding-top: 15x;
+    padding-bottom: 20px;
+}
+.my_prod_row_class .my-auto{
+    color: #000;
+    font-size: 12px;
+    text-decoration: none;
+
+}
+
+.my_prod_title{
+   font-size: 16px; 
+   text-transform: uppercase;
+   letter-spacing: .2em;
+   padding-top: 15px;
+   padding-bottom: 10px;
+}
+.my_prod_text{
+    padding-right: 20px;
+}
+
+/* search/search.html */
+.my_search_text{
+    padding-top: 20px;   
+}
+
+/* cart  cart.html*/
+.my_custom_table{
+    min-width: 500px;
+    font-size:16px;
+}
+
+.my_custom_thead h4{
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing:.2em; 
+   
+
+}
+.custom_a{
+    text-decoration: none;
+    color: #1d1d1d !important;
+}
+.custom_icon{
+    text-decoration:none;
+    color: #1d1d1d !important;
+}
+.my_custom_button{
+    margin-top:5px;
+}

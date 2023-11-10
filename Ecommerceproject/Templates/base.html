@@ -1,0 +1,28 @@
+{% load static %}
+<html>
+    <head>
+        <meta name="description" content="{% block metadescription %}{% endblock %}">
+        <link rel="stylesheet" href="{% static 'css/custom.css' %}">
+        <link href="{% static 'css/bootstrap.min.css'%}" rel="stylesheet" >
+        <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@700&family=Lora&family=Montserrat:wght@100;500&family=Noto+Serif:wght@300&family=PT+Serif&family=Roboto:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/1b99dd44bf.js" crossorigin="anonymous"></script> 
+        <title>{% block title %}{% endblock %}</title>  
+    </head>
+    <body class="body-sty">
+        <div class="container">
+            
+            {% include 'header.html' %}
+            {% include 'navbar.html' %}
+            {% block content %}
+            {% endblock %}<br>
+            
+        </div><br>
+            {% include 'footer.html' %}
+            <script src="{% static 'js/popper.min.js '%}"></script>
+            <script src="{% static 'js/bootstrap.min.js '%}"></script>
+        </body>
+</html>
